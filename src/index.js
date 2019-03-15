@@ -42,7 +42,7 @@ class App extends Component {
         <h1>Hello CodeSandbox</h1>
         <h2>Start editing to see some magic happen!</h2>
         <PDF
-          file="UM_Acer_1.0_En.pdf"
+          file="https://cors-anywhere.herokuapp.com/https://hb.tinkerfcu.org/Online/tinkerdisclosureservice.aspx?esignhb.pdf"
           page={this.state.page}
           onDocumentComplete={this.onDocumentComplete}
         />
